@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>导航栏</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="//at.alicdn.com/t/font_2426574_cqrqxjdkbmc.js"></script>
+</head>
+
+<body>
+    <header class="globalHeader">
+        <form class="searchForm" method="GET" action="https://www.google.com/search">
+            <input type="text" name="q" class="inputContent" placeholder="搜索或输入网址" onfocus="this.placeholder=''">
+            <button type="submit">搜索</button>
+        </form>
+    </header>
+    <main class="globalMain">
+        <ul class="siteList">
+            <li class="lastLi">
+                <div id="addSite" class="addSite">
+                    <div class="iconWrapper">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-jiahao"></use>
+                        </svg>
+                    </div>
+                    <div class="text">新增站点</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
